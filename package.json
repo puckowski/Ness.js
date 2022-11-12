@@ -1,0 +1,26 @@
+{
+  "name": "ness.js",
+  "version": "0.1.0",
+  "description": "Compile CSS Nesting Module syntax to CSS at runtime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "terser -o index.min.js --compress --mangle -- index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puckowski/Ness.js.git"
+  },
+  "keywords": [
+    "CSS",
+    "Nested",
+    "Layers",
+    "Layer"
+  ],
+  "author": "Daniel Puckowksi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puckowski/Ness.js/issues"
+  },
+  "homepage": "https://github.com/puckowski/Ness.js#readme"
+}

@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="ext.css" />
+    <link href="ext.css" />
+    <style>
+        .component {
+  width: 300px;
+  @media (min-width: 768px) {
+    width: 600px;
+    @media  (min-resolution: 192dpi) {
+      background-image: url(/img/retina2x.png);
+    }
+  }
+  @media (min-width: 1280px) {
+    width: 800px;
+  }
+}
+
+
+img {
+  width: 300px;
+
+  .component2  {
+    @media (min-width: 768px) {
+        width: 600px;
+        @media  (min-resolution: 192dpi) {
+        background-image: url(/img/retina2x.png);
+        }
+    }
+  @media (min-width: 1280px) {
+    width: 800px;
+  }
+    }
+}
+
+        color: #cacaca;
+
+        p {
+            color: gray;
+        }
+
+        background-color: #ffffff;
+
+        table {
+            & td[target="_complex{,;"], & .foobar[target="_complex{,;"] {
+                background-color: #888888;
+                font: foo;
+
+                &:first-child {
+                    color: blue;
+
+                    tr div {
+                        background-color: pink;
+                    }
+
+                    display: block;
+                }
+
+                align-text: center;
+
+                ul li[target="_complex{,;"]:first-child {
+                    float: right;
+                }
+
+                float: left;
+            }
+        }
+
+        span {
+            color: green;
+        }
+
+        align: fake;
+    </style>
+</head>
+
+<body>
+    <script src="index.js">
+
+    </script>
+    <table>
+        <td>
+            <a>hello, world</a>
+        </td>
+    </table>
+</body>
+
+</html>

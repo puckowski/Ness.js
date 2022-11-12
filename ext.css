@@ -1,0 +1,1 @@
+p { color: blue; } table { & td { background-color: #888888; font: foo; &:first-child { color: blue; } } & th { background-color: #229999; } @nest .dark & { background-color: blue; } } span { color: blue; }
