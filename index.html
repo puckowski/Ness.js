@@ -4,6 +4,50 @@
     <link rel="stylesheet" href="ext.css" />
     <link href="ext.css" />
     <style>
+
+
+@layer theme{
+  kbd {
+    margin-block: 2rem;
+
+    strong {
+    margin: 4rem;
+    }
+  }
+
+  strong {
+    margin: 3rem;
+
+    @layer div {
+        font: small;
+    }
+
+    margin-bottom: 0.25rem;
+
+    @layer fake {
+        ol:first-child {
+            margin-top: 9px;
+        }
+
+        padding: 10px;
+    }
+  }
+
+  @layer layout {
+    p {
+        margin-left: 0.5rem;
+    }
+  }
+}
+
+@layer theme, layout, utilities;
+
+@layer utilities{
+p {
+margin-block: 1rem;
+}
+}
+
         .component {
   width: 300px;
   @media (min-width: 768px) {
@@ -31,6 +75,9 @@ img {
   @media (min-width: 1280px) {
     width: 800px;
   }
+  @media print {
+    width: 1024;
+  }
     }
 }
 
@@ -47,7 +94,7 @@ img {
                 background-color: #888888;
                 font: foo;
 
-                &:first-child {
+                &:first-child, kbd, small {
                     color: blue;
 
                     tr div {
