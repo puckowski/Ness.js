@@ -1,85 +1,100 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="ext.css" />
+    <!--<link rel="stylesheet" href="ext.css" />-->
     <link href="ext.css" />
     <style>
+        @layer theme {
+            kbd {
+                margin-block: 2rem;
 
+                strong {
+                    margin: 4rem;
+                }
+            }
 
-@layer theme{
-  kbd {
-    margin-block: 2rem;
+            strong {
+                margin: 3rem;
 
-    strong {
-    margin: 4rem;
-    }
-  }
+                @layer div {
+                    font: small;
+                }
 
-  strong {
-    margin: 3rem;
+                margin-bottom: 0.25rem;
 
-    @layer div {
-        font: small;
-    }
+                @layer fake {
+                    ol:first-child {
+                        margin-top: 9px;
+                    }
 
-    margin-bottom: 0.25rem;
+                    padding: 10px;
 
-    @layer fake {
-        ol:first-child {
-            margin-top: 9px;
+                    @layer temp {
+                        flex: start;
+
+                        img a {
+                            color: #fafafa;
+                        }
+
+                        ol li {
+                            color: yellow;
+                        }
+
+                        padding-top: 0.333rem;
+                    }
+                }
+            }
+
+            @layer layout {
+                p {
+                    margin-left: 0.5rem;
+                }
+            }
         }
 
-        padding: 10px;
-    }
-  }
+        @layer theme,
+        layout,
+        utilities;
 
-  @layer layout {
-    p {
-        margin-left: 0.5rem;
-    }
-  }
-}
-
-@layer theme, layout, utilities;
-
-@layer utilities{
-p {
-margin-block: 1rem;
-}
-}
 
         .component {
-  width: 300px;
-  @media (min-width: 768px) {
-    width: 600px;
-    @media  (min-resolution: 192dpi) {
-      background-image: url(/img/retina2x.png);
-    }
-  }
-  @media (min-width: 1280px) {
-    width: 800px;
-  }
-}
+            width: 300px;
 
+            @media (min-width: 768px) {
+                width: 600px;
 
-img {
-  width: 300px;
+                @media (min-resolution: 192dpi) {
+                    background-image: url(/img/retina2x.png);
+                }
+            }
 
-  .component2  {
-    @media (min-width: 768px) {
-        width: 600px;
-        @media  (min-resolution: 192dpi) {
-        background-image: url(/img/retina2x.png);
+            @media (min-width: 1280px) {
+                width: 800px;
+            }
         }
-    }
-  @media (min-width: 1280px) {
-    width: 800px;
-  }
-  @media print {
-    width: 1024;
-  }
-    }
-}
+
+
+        img {
+            width: 300px;
+
+            .component2 {
+                @media (min-width: 768px) {
+                    width: 600px;
+
+                    @media (min-resolution: 192dpi) {
+                        background-image: url(/img/retina2x.png);
+                    }
+                }
+
+                @media (min-width: 1280px) {
+                    width: 800px;
+                }
+
+                @media print {
+                    width: 1024;
+                }
+            }
+        }
 
         color: #cacaca;
 
@@ -90,11 +105,15 @@ img {
         background-color: #ffffff;
 
         table {
-            & td[target="_complex{,;"], & .foobar[target="_complex{,;"] {
+
+            & td[target="_complex{,;"],
+            & .foobar[target="_complex{,;"] {
                 background-color: #888888;
                 font: foo;
 
-                &:first-child, kbd, small {
+                &:first-child,
+                kbd,
+                small {
                     color: blue;
 
                     tr div {
@@ -119,6 +138,44 @@ img {
         }
 
         align: fake;
+
+        div {
+            color: fa0000;
+
+            ul,
+            ol:first-child {
+                background-color: dddddd;
+
+                a,
+                img {
+                    color: cc44cc;
+                }
+
+                @layer test {
+                    color: 333333;
+
+                    th,
+                    tbody {
+                        background-color: #444444;
+                    }
+
+                    background-color: #555555;
+                }
+
+                margin-bottom: 8px;
+            }
+
+            background-color: fafa00;
+
+            small,
+            span {
+                color: ff00cc;
+            }
+
+            padding: 0.111rem;
+        }
+
+        margin-right: 9px;
     </style>
 </head>
 
