@@ -1,0 +1,323 @@
+@layer theme {
+    strong {
+        margin: 3rem;
+
+        margin-bottom: 0.25rem;
+    }
+}
+
+@layer theme {
+    kbd {
+        margin-block: 2rem;
+    }
+}
+
+@layer theme {
+    @layer layout {
+        p {
+            margin-left: 0.5rem;
+        }
+    }
+}
+
+@layer theme {
+    @layer fake {
+        strong {
+            padding: 10px;
+        }
+    }
+}
+
+@layer theme {
+    @layer div {
+        strong {
+            font: small;
+        }
+    }
+}
+
+@layer theme {
+    kbd strong {
+        margin: 4rem;
+    }
+}
+
+@layer theme {
+    @layer fake {
+        @layer temp {
+            strong {
+                flex: start;
+
+                padding-top: 0.333rem;
+            }
+        }
+    }
+}
+
+@layer theme {
+    @layer fake {
+        strong ol:first-child {
+            margin-top: 9px;
+        }
+    }
+}
+
+@layer theme {
+    @layer fake {
+        @layer temp {
+            strong ol li {
+                color: yellow;
+            }
+        }
+    }
+}
+
+@layer theme {
+    @layer fake {
+        @layer temp {
+            strong img a {
+                color: #fafafa;
+            }
+        }
+    }
+}
+
+@layer theme,
+layout,
+utilities;
+
+.component {
+    width: 300px;
+}
+
+@media (min-width: 1280px) {
+    .component {
+        width: 800px;
+    }
+}
+
+@media (min-width: 768px) {
+    .component {
+        width: 600px;
+    }
+}
+
+@media (min-width: 768px) and @media (min-resolution: 192dpi) {
+    .component {
+        background-image: url(/img/retina2x.png);
+    }
+}
+
+img {
+    width: 300px;
+}
+
+@media print {
+    img .component2 {
+        width: 1024;
+    }
+}
+
+@media (min-width: 1280px) {
+    img .component2 {
+        width: 800px;
+    }
+}
+
+@media (min-width: 768px) {
+    img .component2 {
+        width: 600px;
+    }
+}
+
+@media (min-width: 768px) and @media (min-resolution: 192dpi) {
+    img .component2 {
+        background-image: url(/img/retina2x.png);
+    }
+}
+
+color: #cacaca;
+
+p {
+    color: gray;
+}
+
+background-color: #ffffff;
+
+table .foobar[target="_complex{,;"] {
+    background-color: #888888;
+    font: foo;
+
+    align-text: center;
+
+    float: left;
+}
+
+table td[target="_complex{,;"] {
+    background-color: #888888;
+    font: foo;
+
+    align-text: center;
+
+    float: left;
+}
+
+table .foobar[target="_complex{,;"] ul li[target="_complex{,;"]:first-child {
+    float: right;
+}
+
+table td[target="_complex{,;"] ul li[target="_complex{,;"]:first-child {
+    float: right;
+}
+
+table .foobar[target="_complex{,;"] small {
+    color: blue;
+
+    display: block;
+}
+
+table .foobar[target="_complex{,;"] kbd {
+    color: blue;
+
+    display: block;
+}
+
+table .foobar[target="_complex{,;"]:first-child {
+    color: blue;
+
+    display: block;
+}
+
+table td[target="_complex{,;"] small {
+    color: blue;
+
+    display: block;
+}
+
+table td[target="_complex{,;"] kbd {
+    color: blue;
+
+    display: block;
+}
+
+table td[target="_complex{,;"]:first-child {
+    color: blue;
+
+    display: block;
+}
+
+table .foobar[target="_complex{,;"] small tr div {
+    background-color: pink;
+}
+
+table .foobar[target="_complex{,;"] kbd tr div {
+    background-color: pink;
+}
+
+table .foobar[target="_complex{,;"]:first-child tr div {
+    background-color: pink;
+}
+
+table td[target="_complex{,;"] small tr div {
+    background-color: pink;
+}
+
+table td[target="_complex{,;"] kbd tr div {
+    background-color: pink;
+}
+
+table td[target="_complex{,;"]:first-child tr div {
+    background-color: pink;
+}
+
+span {
+    color: green;
+}
+
+align: fake;
+
+div {
+    color: fa0000;
+
+    background-color: fafa00;
+
+    padding: 0.111rem;
+}
+
+div span {
+    color: ff00cc;
+}
+
+div small {
+    color: ff00cc;
+}
+
+div ol:first-child {
+    background-color: dddddd;
+
+    margin-bottom: 8px;
+}
+
+div ul {
+    background-color: dddddd;
+
+    margin-bottom: 8px;
+}
+
+@layer test {
+    div ol:first-child {
+        color: 333333;
+
+        background-color: #555555;
+    }
+}
+
+@layer test {
+    div ul {
+        color: 333333;
+
+        background-color: #555555;
+    }
+}
+
+div ol:first-child img {
+    color: cc44cc;
+}
+
+div ol:first-child a {
+    color: cc44cc;
+}
+
+div ul img {
+    color: cc44cc;
+}
+
+div ul a {
+    color: cc44cc;
+}
+
+@layer test {
+    div ol:first-child tbody {
+        background-color: #444444;
+    }
+}
+
+@layer test {
+    div ol:first-child th {
+        background-color: #444444;
+    }
+}
+
+@layer test {
+    div ul tbody {
+        background-color: #444444;
+    }
+}
+
+@layer test {
+    div ul th {
+        background-color: #444444;
+    }
+}
+
+margin-right: 9px;
