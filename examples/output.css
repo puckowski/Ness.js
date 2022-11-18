@@ -321,3 +321,195 @@ div ul a {
 }
 
 margin-right: 9px;
+
+margin-bottom: 2px;
+
+aside[target="_complex{,;"] {
+    margin-right: 3px;
+
+    margin-top: 5px;
+
+    padding-top: 6px;
+}
+
+div {
+    margin-right: 3px;
+
+    margin-top: 5px;
+
+    padding-top: 6px;
+}
+
+aside[target="_complex{,;"] a[target="_complex{,;"] {
+    padding-right: 7px;
+
+    padding-left: 9px;
+}
+
+aside[target="_complex{,;"] p {
+    padding-right: 7px;
+
+    padding-left: 9px;
+}
+
+aside[target="_complex{,;"] span {
+    padding-right: 7px;
+
+    padding-left: 9px;
+}
+
+div a[target="_complex{,;"] {
+    padding-right: 7px;
+
+    padding-left: 9px;
+}
+
+div p {
+    padding-right: 7px;
+
+    padding-left: 9px;
+}
+
+div span {
+    padding-right: 7px;
+
+    padding-left: 9px;
+}
+
+aside[target="_complex{,;"] ol:first-child[target="_complex{,;"] {
+    margin-left: 4px;
+
+    display: block;
+}
+
+aside[target="_complex{,;"] ul {
+    margin-left: 4px;
+
+    display: block;
+}
+
+div ol:first-child[target="_complex{,;"] {
+    margin-left: 4px;
+
+    display: block;
+}
+
+div ul {
+    margin-left: 4px;
+
+    display: block;
+}
+
+aside[target="_complex{,;"] a[target="_complex{,;"] td {
+    padding-bottom: 8px;
+}
+
+aside[target="_complex{,;"] a[target="_complex{,;"] tr {
+    padding-bottom: 8px;
+}
+
+aside[target="_complex{,;"] p td {
+    padding-bottom: 8px;
+}
+
+aside[target="_complex{,;"] p tr {
+    padding-bottom: 8px;
+}
+
+aside[target="_complex{,;"] span td {
+    padding-bottom: 8px;
+}
+
+aside[target="_complex{,;"] span tr {
+    padding-bottom: 8px;
+}
+
+div a[target="_complex{,;"] td {
+    padding-bottom: 8px;
+}
+
+div a[target="_complex{,;"] tr {
+    padding-bottom: 8px;
+}
+
+div p td {
+    padding-bottom: 8px;
+}
+
+div p tr {
+    padding-bottom: 8px;
+}
+
+div span td {
+    padding-bottom: 8px;
+}
+
+div span tr {
+    padding-bottom: 8px;
+}
+
+aside[target="_complex{,;"] ol:first-child[target="_complex{,;"] tbody {
+    background-color: #eeeeee;
+}
+
+aside[target="_complex{,;"] ol:first-child[target="_complex{,;"] thead {
+    background-color: #eeeeee;
+}
+
+aside[target="_complex{,;"] ul tbody {
+    background-color: #eeeeee;
+}
+
+aside[target="_complex{,;"] ul thead {
+    background-color: #eeeeee;
+}
+
+div ol:first-child[target="_complex{,;"] tbody {
+    background-color: #eeeeee;
+}
+
+div ol:first-child[target="_complex{,;"] thead {
+    background-color: #eeeeee;
+}
+
+div ul tbody {
+    background-color: #eeeeee;
+}
+
+div ul thead {
+    background-color: #eeeeee;
+}
+
+aside[target="_complex{,;"] ol:first-child[target="_complex{,;"] tbody table {
+    float: right;
+}
+
+aside[target="_complex{,;"] ol:first-child[target="_complex{,;"] thead table {
+    float: right;
+}
+
+aside[target="_complex{,;"] ul tbody table {
+    float: right;
+}
+
+aside[target="_complex{,;"] ul thead table {
+    float: right;
+}
+
+div ol:first-child[target="_complex{,;"] tbody table {
+    float: right;
+}
+
+div ol:first-child[target="_complex{,;"] thead table {
+    float: right;
+}
+
+div ul tbody table {
+    float: right;
+}
+
+div ul thead table {
+    float: right;
+}
+
+color: #fafa22;
