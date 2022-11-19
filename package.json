@@ -1,6 +1,6 @@
 {
   "name": "ness.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Compile CSS Nesting Module syntax to CSS at runtime.",
   "main": "index.js",
   "scripts": {
