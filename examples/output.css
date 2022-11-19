@@ -541,97 +541,99 @@ color: #fafa22;
 
 @media (max-width:1205px) {
     .w3-auto {
-        max-width: 95%
+        max-width: 95%;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-click.w3-mobile .w3-button {
-        width: 100%
+        width: 100%;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-click.w3-mobile .w3-btn {
-        width: 100%
+        width: 100%;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-click.w3-mobile {
-        width: 100%
+        width: 100%;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-hover.w3-mobile .w3-button {
-        width: 100%
+        width: 100%;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-hover.w3-mobile .w3-btn {
-        width: 100%
+        width: 100%;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-hover.w3-mobile {
-        width: 100%
+        width: 100%;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-click.w3-mobile {
-        text-align: center
+        text-align: center;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-hover.w3-mobile {
-        text-align: center
+        text-align: center;
     }
 }
 
 @media (max-width:600px) {
-    width: 100% !important .w3-bar-item.w3-mobile {
-        text-align: center
+    .w3-bar-item.w3-mobile {
+        text-align: center;
     }
 }
 
 @media (max-width:600px) {
     .w3-mobile {
         display: block;
+        width: 100% !important;
     }
 }
 
 @media (max-width:600px) {
     .w3-hide-small {
-        display: none !important
+        display: none !important;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-click.w3-mobile .w3-dropdown-content {
-        position: relative
+        position: relative;
     }
 }
 
 @media (max-width:600px) {
     .w3-dropdown-hover.w3-mobile .w3-dropdown-content {
-        position: relative
+        position: relative;
     }
 }
 
 @media (max-width:600px) {
-    width: auto !important .w3-modal {
-        padding-top: 30px
+    .w3-modal {
+        padding-top: 30px;
     }
 }
 
 @media (max-width:600px) {
     .w3-modal-content {
         margin: 0 10px;
+        width: auto !important;
     }
 }
 
