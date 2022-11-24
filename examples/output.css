@@ -1,3 +1,124 @@
+.app-name {
+    color: var(--main-color);
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 32px;
+}
+
+.app-icon {
+    width: 26px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    position: relative;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 24px;
+    position: relative;
+}
+
+.app-content {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    padding: 16px 24px 24px 0;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--app-container);
+    transition: .2s;
+    max-width: 1800px;
+}
+
+.app-icon:after {
+    bottom: -6px;
+}
+
+.app-icon:before {
+    top: -6px;
+}
+
+.app-icon:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.app-icon:before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.app-header-right button {
+    margin-left: 10px;
+}
+
+.app-header-left {
+    flex-grow: 1;
+}
+
+.app-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.app-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.app-container textarea {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container select {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container optgroup {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container input {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container button {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mode-switch {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @layer theme {
     strong {
         margin: 3rem;
