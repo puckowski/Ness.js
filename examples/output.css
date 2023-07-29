@@ -1,3 +1,438 @@
+@media not all and (monochrome) {
+    input {
+        padding: 0.75rem;
+    }
+}
+
+@media print and (color) {
+    input {
+        padding: 0.5rem;
+    }
+}
+
+@media not screen and (color) {
+    input {
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .item-status {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .status-type:after {
+        width: 4px;
+        height: 4px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .status-type {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .status-number {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .project-boxes.jsGridView .project-box-wrapper {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .messages-btn {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .messages-section {
+        transform: translateX(100%);
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        z-index: 2;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .messages-section {
+        .messages-close {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .app-header-right button {
+        margin-left: 4px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .mode-switch {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .notification-btn {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .add-btn {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .profile-btn span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .app-name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .mode-switch {
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .notification-btn {
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .add-btn {
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .project-boxes.jsListView .more-wrapper {
+        right: 2px;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .project-boxes.jsListView .project-box>* {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .days-left {
+        font-size: 8px;
+        padding: 6px 6px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .box-progress-percentage {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .box-progress-header {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .project-boxes.jsListView .project-box-header>span {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .box-content-subheader {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .box-content-header {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .messages-btn {
+        top: 48px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .search-input {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .status-type {
+        padding-right: 4px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .projects-section-header .time {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .projects-section-header p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .app-header {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .profile-btn img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .projects-section {
+        padding: 24px 16px 0 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .project-boxes.jsGridView .project-box-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .search-input {
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .app-header {
+        padding: 16px 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .view-btn {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .status-type {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .status-number {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .app-content {
+        padding: 16px 12px 24px 12px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .app-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .app-sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .project-boxes {
+        overflow-y: visible;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .projects-section {
+        overflow: auto;
+    }
+}
+
+.status-type:after {
+    display: none;
+}
+
+.app-name {
+    color: var(--main-color);
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 32px;
+}
+
+.app-icon {
+    width: 26px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    position: relative;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 24px;
+    position: relative;
+}
+
+.app-content {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    padding: 16px 24px 24px 0;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--app-container);
+    transition: .2s;
+    max-width: 1800px;
+}
+
+.app-icon:after {
+    bottom: -6px;
+}
+
+.app-icon:before {
+    top: -6px;
+}
+
+.app-icon:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.app-icon:before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.app-header-right button {
+    margin-left: 10px;
+}
+
+.app-header-left {
+    flex-grow: 1;
+}
+
+.app-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.app-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.app-container textarea {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container select {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container optgroup {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container input {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-container button {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mode-switch {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @layer theme {
     strong {
         margin: 3rem;
@@ -37,8 +472,10 @@
 }
 
 @layer theme {
-    kbd strong {
-        margin: 4rem;
+    kbd {
+        strong {
+            margin: 4rem;
+        }
     }
 }
 
@@ -56,17 +493,9 @@
 
 @layer theme {
     @layer fake {
-        strong ol:first-child {
-            margin-top: 9px;
-        }
-    }
-}
-
-@layer theme {
-    @layer fake {
-        @layer temp {
-            strong ol li {
-                color: yellow;
+        strong {
+            ol:first-child {
+                margin-top: 9px;
             }
         }
     }
@@ -75,8 +504,22 @@
 @layer theme {
     @layer fake {
         @layer temp {
-            strong img a {
-                color: #fafafa;
+            strong {
+                ol li {
+                    color: yellow;
+                }
+            }
+        }
+    }
+}
+
+@layer theme {
+    @layer fake {
+        @layer temp {
+            strong {
+                img a {
+                    color: #fafafa;
+                }
             }
         }
     }
@@ -102,9 +545,11 @@ utilities;
     }
 }
 
-@media (min-width: 768px) and @media (min-resolution: 192dpi) {
-    .component {
-        background-image: url(/img/retina2x.png);
+@media (min-width: 768px) {
+    @media (min-resolution: 192dpi) {
+        .component {
+            background-image: url(/img/retina2x.png);
+        }
     }
 }
 
@@ -130,9 +575,11 @@ img {
     }
 }
 
-@media (min-width: 768px) and @media (min-resolution: 192dpi) {
-    img .component2 {
-        background-image: url(/img/retina2x.png);
+@media (min-width: 768px) {
+    @media (min-resolution: 192dpi) {
+        img .component2 {
+            background-image: url(/img/retina2x.png);
+        }
     }
 }
 
@@ -170,63 +617,63 @@ table td[target="_complex{,;"] ul li[target="_complex{,;"]:first-child {
     float: right;
 }
 
-table .foobar[target="_complex{,;"] small {
+.foobar[target="_complex{,;"]:first-child small {
     color: blue;
 
     display: block;
 }
 
-table .foobar[target="_complex{,;"] kbd {
+.foobar[target="_complex{,;"]:first-child kbd {
     color: blue;
 
     display: block;
 }
 
-table .foobar[target="_complex{,;"]:first-child {
+.foobar[target="_complex{,;"]:first-child {
     color: blue;
 
     display: block;
 }
 
-table td[target="_complex{,;"] small {
+td[target="_complex{,;"]:first-child small {
     color: blue;
 
     display: block;
 }
 
-table td[target="_complex{,;"] kbd {
+td[target="_complex{,;"]:first-child kbd {
     color: blue;
 
     display: block;
 }
 
-table td[target="_complex{,;"]:first-child {
+td[target="_complex{,;"]:first-child {
     color: blue;
 
     display: block;
 }
 
-table .foobar[target="_complex{,;"] small tr div {
+.foobar[target="_complex{,;"]:first-child small tr div {
     background-color: pink;
 }
 
-table .foobar[target="_complex{,;"] kbd tr div {
+.foobar[target="_complex{,;"]:first-child kbd tr div {
     background-color: pink;
 }
 
-table .foobar[target="_complex{,;"]:first-child tr div {
+.foobar[target="_complex{,;"]:first-child tr div {
     background-color: pink;
 }
 
-table td[target="_complex{,;"] small tr div {
+td[target="_complex{,;"]:first-child small tr div {
     background-color: pink;
 }
 
-table td[target="_complex{,;"] kbd tr div {
+td[target="_complex{,;"]:first-child kbd tr div {
     background-color: pink;
 }
 
-table td[target="_complex{,;"]:first-child tr div {
+td[target="_complex{,;"]:first-child tr div {
     background-color: pink;
 }
 
