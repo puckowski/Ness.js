@@ -4,6 +4,8 @@ Compile CSS Nesting Module syntax to CSS at runtime
 
 Supports CSS Nesting Module syntax, nested @layer at-rules, and nested @media at-rules. CSS properties must end with a semicolon.
 
+Both @layer and @media at-rules must have valid syntax per World Wide Web Consortium (W3C) standards.
+
 ## Nested CSS
 
 ```css
