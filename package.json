@@ -1,6 +1,6 @@
 {
   "name": "ness.js",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Compile CSS Nesting Module syntax to CSS at runtime.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "buildNode": "terser -o index.node.min.js --compress --mangle -- index.node.js",
     "buildStyle": "terser -o index.style.min.js --compress --mangle -- index.style.js",
     "buildLink": "terser -o index.link.min.js --compress --mangle -- index.link.js",
-    "buildAll": "npm run build && npm run buildNode && npm run buildStyle && npm run buildLink"
+    "buildCjs": "terser -o index.min.cjs --compress --mangle -- index.cjs",
+    "buildAll": "npm run build && npm run buildNode && npm run buildStyle && npm run buildLink && npm run buildCjs"
   },
   "repository": {
     "type": "git",
