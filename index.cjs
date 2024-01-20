@@ -265,7 +265,7 @@ const applyScopedCss = (cssText) => {
     while (cssText.length > 0) {
         let data = seekToFirstUnquotedSemicolonPreserving(cssText, '}');
 
-        if (data.trim().startsWith('@keyframes')) {
+        while (data.trim().startsWith('@keyframes')) {
             let keyframeCss = seekToFirstUnquotedSemicolonPreserving(cssText, '}');
             let unquotedKeyframeCss = removeQuotedData(keyframeCss);
 
